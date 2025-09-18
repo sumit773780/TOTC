@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header class=" bg-primary pt-3 pb-2">
+    <header class="bg-primary pt-3 pb-2">
         <div class="container">
             <div class="header d-flex justify-content-between">
                 <div class="logo">
@@ -28,10 +28,15 @@
                 </div>
                 <nav class="navbar navbar-expand-lg bg-primary-body-tertiary ">
                     <div class="container">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ps-5 me-5 mb-2 mb-lg-0">
                                 <li class="nav-item pe-4 pe-lg-5">
-                                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link" aria-current="page" href="#home">Home</a>
                                 </li>
                                 <li class="nav-item pe-2 pe-lg-3 pe-xl-5">
                                     <a class="nav-link" href="#">Courses</a>
@@ -62,22 +67,25 @@
     <main>
         <section class="banner">
             <div class="container ">
-                <div class="row banner justify-content-between align-items-center">
+                <div class="row banner justify-content-between align-items-center  gy-2">
                     <div class="col-lg-5">
-                        <h1 class="text-white pb-3 fw-bold"><span class="text-warning pe-2">Studying</span>Online is now
+                        <h1 class="one text-white pb-3 fw-bold"><span class="text-warning pe-2">Studying</span>Online is now
                             much
                             easier</h1>
                         <p class="fw-regular text-white">TOTC is an interesting platform that will teach you in more an
                             interactive way</p>
-                        <div class="d-flex align-items-center gap-5 mt-5">
+                        <div
+                            class="d-flex align-items-center flex-column-reverse flex-lg-row gap-xl-4 gap-3 mt-lg-5 mt-3 gy-2">
                             <a href="#"
-                                class="btn btn-info rounded-pill pt-1 pb-1 pe-1 ps-1 ps-lg-3 pe-lg-3 pt-lg-2 pb-lg-2 pt-xl-2 pb-xl-2 pe-xl-2 ps-xl-2  pe-xxl-4 ps-xxl-4 pt-xxl-3 pb-xxl-3">Join
+                                class="btn btn-info rounded-pill pt-3 pb-3 pe-2 ps-2 ps-lg-2 pe-lg-2 pe-xxl-4 ps-xxl-4 pt-xxl-3 pb-xxl-3">Join
                                 For Free</a>
-                            <button type="button" class="border-0 rounded-circle btn-light play" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                <img src="./assets/image/playbutttona.svg" alt="img-fluid">
-                            </button>
-                            <a href="#" class="text-decoration-none">Watch how it works</a>
+                            <div class="d-flex align-items-center gap-5 gap-xl-4">
+                                <button type="button" class="border-0 rounded-circle btn-light play"
+                                    data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    <img src="./assets/image/playbutttona.svg" alt="img-fluid">
+                                </button>
+                                <a href="#" class="text-decoration-none">Watch how it works</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -106,12 +114,12 @@
                 </div>
             </div>
         </div>
-        <section class="our-success mt-5">
+        <section class="success mt-3 mt-lg-5">
             <div class="container">
                 <div class="row text-center">
                     <div class="col">
                         <div class="col-lg-7 mb-5 mx-auto">
-                            <h2 class="display-5 fw-bold mt-5 mb-2">Our Success</h2>
+                            <h2 class="display-5 fw-bold mt-lg-4 mb-2">Our Success</h2>
                             <caption class="text-body">Ornare id fames interdum porttitor nulla turpis etiam. Diam
                                 vitae
                                 sollicitudin at
@@ -121,34 +129,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row-cols-lg-5 g-2 g-lg-3 justify-content-evenly text-center mt-7">
+                <div class="row g-2 flex-column flex-sm-row justify-content-evenly text-center mt-lg-6 mt-sm-4 mt-2 gy-3">
                     <div class="col">
                         <h2 class="gardient fw-light">15K+</h2>
-                        <h3 class="h4 text-dark fw-normal">Students</h3>
+                        <h3 class="text-dark fw-normal">Students</h3>
                     </div>
                     <div class="col ">
                         <h2 class="gardient fw-light">75%</h2>
-                        <h3 class="h4 text-dark fw-normal">Total Success</h3>
+                        <h3 class="text-dark fw-normal">Total Success</h3>
                     </div>
                     <div class="col ">
                         <h2 class="gardient fw-light">35</h2>
-                        <h3 class="h4 text-dark fw-normal">Main question</h3>
+                        <h3 class="text-dark fw-normal">Main question</h3>
                     </div>
                     <div class="col ">
                         <h2 class="gardient fw-light">26</h2>
-                        <h3 class="h4 text-dark fw-normal">Chief experts</h3>
+                        <h3 class="text-dark fw-normal">Chief experts</h3>
                     </div>
                     <div class="col ">
                         <h2 class="gardient fw-light">16</h2>
-                        <h3 class="h4 text-dark fw-normal">Years of experience</h3>
+                        <h3 class="text-dark fw-normal">Years of experience</h3>
                     </div>
                 </div>
         </section>
-        <section class="CloudSoftware mt-9">
+        <section class="CloudSoftware mt-lg-9 mt-6">
             <div class="container ">
                 <div class="row text-center">
                     <div class="col col-lg-6 mx-auto">
-                        <h2 class="pt-6 pb-3 text-primary-emphasis fw-bold">All-In-One <span
+                        <h2 class=" pb-3 text-primary-emphasis fw-bold">All-In-One <span
                                 class="text-info-emphasis">Cloud
                                 Software.</span></h2>
                         <p class="text-secondary mb-5 fw-regular">TOTC is one powerful online software suite that
@@ -156,45 +164,49 @@
                             tools
                             needed to run a successful school or office.</p>
                     </div>
-                    <div class="row align-items-center justify-content-between mt-9">
-                        <div class="col-lg-4">
-                            <div
-                                class="card justify-content-center shadow-lg bg-body-tertiary rounded online-billing rounded-4 position-relative p-4">
+                    <div class="col-12">
+                        <div class="row align-items-center justify-content-around mt-lg-7 gy-9">
+                            <div class="col-lg-4">
                                 <div
-                                    class="billing rounded-circle position-absolute top-0 start-50 translate-middle pt-3">
-                                    <img src="./assets/image/billing.svg" class="img-fluid" alt="online billing">
+                                    class="card justify-content-center shadow-lg bg-body-tertiary rounded online-billing rounded-4 position-relative p-4 pb-0">
+                                    <div
+                                        class="billing rounded-circle position-absolute top-0 start-50 translate-middle pt-3">
+                                        <img src="./assets/image/billing.svg" class="img-fluid" alt="online billing">
+                                    </div>
+                                    <h3 class=" text-primary-emphasis pb-2 fw-medium">Online Billing, Invoicing, &
+                                        Contracts
+                                    </h3>
+                                    <p class="text-secondary fw-regular">Simple and secure control of your
+                                        organization’s
+                                        financial and legal transactions. Send customized invoices and contracts</p>
                                 </div>
-                                <h3 class=" text-primary-emphasis pb-2 fw-medium">Online Billing, Invoicing, &
-                                    Contracts
-                                </h3>
-                                <p class="text-secondary fw-regular">Simple and secure control of your organization’s
-                                    financial and legal transactions. Send customized invoices and contracts</p>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div
-                                class="card justify-content-center shadow-lg bg-body-tertiary rounded  rounded-4 position-relative p-3">
+                            <div class="col-lg-4">
                                 <div
-                                    class="calendars rounded-circle pt-3 position-absolute top-0 start-50 translate-middle">
-                                    <img src="./assets/image/calendars.svg" class="img-fluid" alt="schedule ">
+                                    class="card justify-content-center shadow-lg bg-body-tertiary rounded rounded-4 position-relative p-3 pb-0">
+                                    <div
+                                        class="calendars rounded-circle pt-3 position-absolute top-0 start-50 translate-middle">
+                                        <img src="./assets/image/calendars.svg" class="img-fluid" alt="schedule ">
+                                    </div>
+                                    <h3 class="text-primary-emphasis pb-2 fw-medium">Easy Scheduling & Attendance
+                                        Tracking</h3>
+                                    <p class="text-secondary fw-regular">Schedule and reserve classrooms at one campus
+                                        or
+                                        multiple campuses. Keep detailed records of student attendance</p>
                                 </div>
-                                <h3 class="text-primary-emphasis pb-2 fw-medium">Easy Scheduling & Attendance
-                                    Tracking</h3>
-                                <p class="text-secondary fw-regular">Schedule and reserve classrooms at one campus or
-                                    multiple campuses. Keep detailed records of student attendance</p>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div
-                                class="card justify-content-center shadow-lg bg-body-tertiary rounded  rounded-4 position-relative p-3">
+                            <div class="col-lg-4">
                                 <div
-                                    class="users rounded-circle pt-3 position-absolute top-0 start-50 translate-middle">
-                                    <img src="./assets/image/users.svg" alt="users">
+                                    class="card justify-content-center shadow-lg bg-body-tertiary rounded  rounded-4 position-relative p-3 pb-0">
+                                    <div
+                                        class="users rounded-circle pt-3 position-absolute top-0 start-50 translate-middle">
+                                        <img src="./assets/image/users.svg" alt="users">
+                                    </div>
+                                    <h3 class="text-primary-emphasis pb-2 fw-medium">Customer Tracking</h3>
+                                    <p class="text-secondary fw-regular">Automate and track emails to individuals or
+                                        groups.
+                                        Skilline’s built-in system helps organize your organization </p>
                                 </div>
-                                <h3 class="text-primary-emphasis pb-2 fw-medium">Customer Tracking</h3>
-                                <p class="text-secondary fw-regular">Automate and track emails to individuals or
-                                    groups.
-                                    Skilline’s built-in system helps organize your organization </p>
                             </div>
                         </div>
                     </div>
@@ -202,7 +214,7 @@
             </div>
             </div>
         </section>
-        <section class="WhatisTOTc mt-9 mb-9">
+        <section class="WhatisTOTc mt-lg-9 mt-3 mb-lg-9">
             <div class="container">
                 <div class="row text-center">
                     <div class="col col-lg-7 mx-auto mt-5">
@@ -217,25 +229,26 @@
                         </p>
                     </div>
                 </div>
-                <div class="row mt-8 mb-5 justify-content-between">
-                    <div class="col-lg-6">
+                <div class="row mt-8 mb-5 justify-content-around">
+                    <div class="col-lg-5">
                         <div class="mt-4 position-relative">
                             <img src="./assets/image/instruction.png" class="img-fluid" alt="instruction">
                             <div class="position-absolute top-50 start-50 translate-middle">
-                                <h2 class="h3 text-white pb-3">FOR INSTRUCTORS</h2>
+                                <h2 class="h3 text-white text-center pb-3">FOR INSTRUCTORS</h2>
                                 <a href="#"
-                                    class="btn btn-outline-light rounded-pill p-3 pe-3 pe-xl-5 ps-3 ps-xl-5">Start a
+                                    class="btn btn-outline-light rounded-pill pe-2 ps-2 pe-sm-3 pe-xl-5 ps-sm-3 ps-xl-5">Start
+                                    a
                                     class today</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-5">
                         <div class=" mt-4 position-relative">
                             <img src="./assets/image/studentimg.png" class="img-fluid" alt="studentimg">
                             <div class="position-absolute top-50 start-50 translate-middle">
-                                <h2 class="h3 text-white pb-3">FOR STUDENTS</h2>
+                                <h2 class="h3 text-white text-center pb-3">FOR STUDENTS</h2>
                                 <a href="#"
-                                    class="text-white btn btn-info rounded-pill p-3 pe-3 pe-xl-5 ps-3 ps-xl-5">Enter
+                                    class="text-white btn btn-info rounded-pill pe-2 ps-2 pe-sm-3 pe-xl-5 ps-sm-3 ps-xl-5">Enter
                                     access code</a>
                             </div>
                         </div>
@@ -243,13 +256,15 @@
                 </div>
             </div>
         </section>
-        <section class="youcandowithTOTC mt-9">
+        <section class="youcandowithTOTC mt-lg-9">
             <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-6">
-                        <h2 class="lh-base fw-medium text-primary-emphasis pb-4 h3">Everything you can do in a
+                <div class="row align-items-center justify-content-between gy-4 position-relative">
+                    <div class="col-lg-6 ">
+                        <p class="cricle position-absolute top-0 end-0"></p>
+                        <h2 class="lh-base fw-medium text-primary-emphasis pb-4 position-relative">Everything you can do
+                            in a
                             physical classroom,<span class="text-info-emphasis ">you can do with TOTC</span></h2>
-                        <p class="lh-lg text-secondary fw-regular">TOTC’s school management software helps traditional
+                        <p class="lh-base text-secondary fw-regular">TOTC’s school management software helps traditional
                             and
                             online
                             schools
@@ -288,7 +303,7 @@
                 </div>
             </div>
         </div>
-        <section class="OurFeatures mt-9">
+        <section class="OurFeatures mt-sm-5 mt-lg-9">
             <div class="container">
                 <div class="text-center pt-6">
                     <h2 class="text-primary-emphasis fw-bold">Our <span
@@ -298,38 +313,42 @@
                         more
                         efficient</p>
                 </div>
-                <div class="row mt-9">
-                    <div class="col-lg-6">
-                        <img src="./assets/image/meeting.png" class="img-fluid" alt="meeting img">
+                <div class="row align-items-center gy-4 mt-lg-9 mb-lg-9 mt-5 ">
+                    <div class="col-lg-7">
+                        <img src="./assets/image/classroom.png" class="img-fluid" alt="meeting img">
                     </div>
-                    <div class="col-lg-5 text">
-                        <h3 class="h2 text-primary-emphasis fw-bold">A <span class="text-info-emphasis">user interface
+                    <div class="col-lg-5">
+                        <h3 class="h2 text-primary-emphasis fw-bold ">A <span class="text-info-emphasis">user interface
                             </span>designed for the classroom</h3>
-                        <div class="mt-5 align-items-center">
-                            <div class="d-flex align-items-center gap-4 mt-5 lh-lg">
+                        <div class="mt-lg-5 mt-3 align-items-center">
+                            <div class="d-flex align-items-center gap-3 mt-4 lh-base">
                                 <img src="./assets/image/menu.svg"
                                     class="icon rounded-circle p-3 shadow p-3 bg-body-tertiary rounded" alt="">
-                                <p class="text-secondary fw-regular">Teachers don’t get lost in the grid view and have a
+                                <p class="text-secondary fw-regular pt-2">Teachers don’t get lost in the grid view and
+                                    have a
                                     dedicated Podium space.</p>
                             </div>
-                            <div class="d-flex  align-items-center gap-4 mt-3 lh-lg">
+                            <div class="d-flex  align-items-center gap-3 mt-4 lh-base">
                                 <img src="./assets/image/presenters.svg"
                                     class="icon rounded-circle p-3 shadow p-3 bg-body-tertiary rounded" alt="">
-                                <p class="text-secondary fw-regular">TA’s and presenters can be moved to the front of
+                                <p class="text-secondary fw-regular pt-2">TA’s and presenters can be moved to the front
+                                    of
                                     the
                                     class.</p>
                             </div>
-                            <div class="d-flex align-items-center gap-4 mt-3 lh-lg">
+                            <div class="d-flex align-items-center gap-3 mt-4 lh-base">
                                 <img src="./assets/image/allstudents.svg"
-                                    class="icon rounded-circle p-3 shadow p-3 bg-body-tertiary rounded" alt="users ">
-                                <p class="text-secondary fw-regular">Teachers can easily see all students and class data
+                                    class="icon rounded-circle p-3 shadow bg-body-tertiary rounded" alt="users ">
+                                <p class="text-secondary fw-regular pt-2">Teachers can easily see all students and class
+                                    data
                                     at
                                     one time.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-between mt-9 mb-9">
+                <div
+                    class="row align-items-center justify-content-between flex-column-reverse flex-lg-row gy-5 mt-lg-9 mb-lg-9 mt-3">
                     <div class="col-lg-5 col-xl-4 managment mx-auto">
                         <h2 class="text-primary-emphasis managment mb-3"><span class="text-info-emphasis">Tools</span>
                             For
@@ -345,7 +364,7 @@
                         <img src="./assets/image/toolsforteaching.png" class="img-fluid" alt="toolsforteaching">
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-between mt-9 mb-9">
+                <div class="row align-items-center justify-content-between mt-lg-9 mb-lg-8 mt-5">
                     <div class="col-lg-6">
                         <img src="./assets/image/quiz.png" class="img-fluid" alt="quiz">
                     </div>
@@ -357,7 +376,8 @@
                             Student results are automatically entered in the online gradebook.</p>
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-between mt-9 mb-9">
+                <div
+                    class="row align-items-center justify-content-between flex-column-reverse flex-lg-row mt-lg-9 mb-lg-8 mt-5">
                     <div class="col-lg-5 col-xl-4 mx-auto">
                         <h2 class="text-primary-emphasis lh-base mb-3"><span class="text-info-emphasis">Class
                                 Management</span> Tools for Educators</h2>
@@ -373,12 +393,12 @@
                         <img src="./assets/image/management.png" class="img-fluid" alt="management">
                     </div>
                 </div>
-                <div class="row align-items-center justify-content-between mt-9 mb-9">
+                <div class="row align-items-center justify-content-between mt-lg-9 mt-4 mb-lg-9 mb-4">
                     <div class="col-lg-6">
                         <img src="./assets/image/discuss.png" class="img-fluid" alt="discuss">
                     </div>
-                    <div class=" col-xl-4 col-lg-5 mx-auto">
-                        <h2 class="text-info-emphasis lh-base mb-3"><span class="text-primary-emphasis">
+                    <div class="col-xl-4 col-lg-5 mx-auto">
+                        <h2 class="one text-info-emphasis lh-base mb-3"><span class="text-primary-emphasis">
                                 One-on-One </span> Discussions</h2>
                         <p class="text-secondary">Teachers and teacher assistants can talk with students
                             privately without leaving the Zoom environment.
@@ -392,8 +412,8 @@
         </div>
         </div>
         </section>
-        <section class="explore-coures mt-9 py-11 pt-9">
-            <div class="container container-custom pt-9 pb-9">
+        <section class="explore-coures mt-9 py-6 pt-lg-9 pt-5">
+            <div class="container container-custom pt-lg-9 pt-2 pb-9">
                 <h2 class="fw-bold">Explore Course</h2>
                 <p class="mb-5">Ut sed eros finibus, placerat orci id, dapibus.</p>
                 <div class="d-flex  justify-content-between mb-5">
@@ -408,7 +428,7 @@
                         <img src="./assets/image/seeallrighticon.svg" class="img-fluid left" alt="Right arrow">
                     </div>
                 </div>
-                <div class="d-flex gap-6 flex-column flex-lg-row">
+                <div class="d-flex gap-xxl-6 gap-xl-3 gap-2 flex-column flex-lg-row flex-grow">
                     <div class="hover-btn my-box active rounded-4">
                         <div class="hover-btn-1 rounded-pill bg-sucess non-1">
                             <div class="hover-btn-3 d-flex non-1 justify-content-center align-items-center rounded-pill "
@@ -1262,20 +1282,20 @@
         </section>
         <section class="testimonials mt-9">
             <div class="container">
-                <div class="row justify-content-around">
+                <div class="row justify-content-around gy-5">
                     <div class="col-lg-5 mx-auto">
-                        <p class="fw-regular mt-2">--- TESTIMONIAL</p>
-                        <h2 class="text-primary-emphasis fw-bold mt-5">What They Say?</h2>
-                        <p class="text-secondary fw-regular mt-5">TOTC has got more than 100k positive ratings from
+                        <p class="fw-regular mt-2 ps-3 ps-lg-0">--- TESTIMONIAL</p>
+                        <h2 class="text-primary-emphasis fw-bold mt-lg-5 mt-3 one">What They Say?</h2>
+                        <p class="text-secondary fw-regular mt-lg-5">TOTC has got more than 100k positive ratings from
                             our
                             users
                             around the world.</p>
-                        <p class="text-secondary fw-regular mt-5">Some of the students and teachers were greatly
+                        <p class="text-secondary fw-regular mt-lg-5 mt-2">Some of the students and teachers were greatly
                             helped
                             by
                             the Skilline.</p>
-                        <p class="text-secondary fw-regular mt-6 ">Are you too? Please give your assessment</p>
-                        <a href="#" class="btn btn-outline-primary d rounded-pill pt-2 pb-2 ps-3 pe-3 mt-6">Write
+                        <p class="text-secondary fw-regular mt-lg-6 ">Are you too? Please give your assessment</p>
+                        <a href="#" class="btn btn-outline-primary d rounded-pill pt-2 pb-2 ps-3 pe-3 mt-lg-6">Write
                             your
                             assessment <img src="./assets/image/right-arrow.svg" alt=""></a>
                     </div>
@@ -1295,7 +1315,7 @@
                                         <img src="./assets/image/GloriaRose.png" class="img-fluid d-block" alt="...">
                                     </div>
                                     <div
-                                        class="card card-body start-25 border-top-0 border-end-0 border-bottom-0 w-75 position-absolute bg-white rounded-5 p-4 text-start carousel-caption d-none d-md-block">
+                                        class="card card-body start-25 border-top-0 border-end-0 border-bottom-0 w-75 position-absolute bg-white rounded-5 p-xxl-4 p-2 text-start carousel-caption d-none d-md-block">
                                         <p class="text-primary-emphasis border-start ps-2 pe-lg-4 mt-2 lh-lg">"Thank
                                             you
                                             so
@@ -1372,7 +1392,7 @@
                 </div>
             </div>
         </section>
-        <section class="Lastest-News-and-Resources mt-9 mb-9">
+        <section class="LastestNewsandResources mt-lg-9 mb-7">
             <div class="container">
                 <div class="row text-center mt-9 mb-9">
                     <div class="col">
@@ -1381,8 +1401,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="row justify-content-between">
-                    <div class="col-lg-6">
+                <div class="row justify-content-around gy-4">
+                    <div class="col-lg-5">
                         <img src="./assets/image/classadds.png" class="img-fluid" alt="classadds">
                         <a href="#" class="btn text-white btn-primary rounded-pill mt-8">NEWS</a>
                         <h3 class="mt-8 fw-medium text-black">Class adds $30 million to its balance sheet for a
@@ -1393,12 +1413,15 @@
                         <a href="#" class="text-secondary">Read more</a>
                     </div>
                     <div class="col-lg-6">
-                        <div class="row align-items-center">
-                            <div class="col-lg-4">
-                                <img src="./assets/image/agirl.png" class="img-fluid" alt="A girl">
+                        <div class="d-flex align-items-center flex-column flex-sm-row gy-3 gap-2 mb-lg-5 mb-3">
+                            <div class="col-lg-4 position-relative">
+                                <img src="./assets/image/agirl.png" class="img-fluid max" alt="A girl">
+                                <a href="#"
+                                    class="btn text-white fw-regular ps-1 pe-1 p-0 btn-primary rounded-pill position-absolute bottom-0 end-0">PRESS
+                                    RELEASE</a>
                             </div>
                             <div class="col-lg-7">
-                                <h4 class="h6 text-black fw-medium pb-3 pt-2">Class Technologies Inc. Closes $30
+                                <h4 class="h6 text-black fw-medium ">Class Technologies Inc. Closes $30
                                     Million
                                     Series A
                                     Financing to
@@ -1408,12 +1431,14 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="row align-items-center mt-9">
-                            <div class="col-lg-4">
-                                <img src="./assets/image/zoommeating.png" class="img-fluid" alt="zoommeating">
+                        <div class="d-flex gap-2 align-items-center flex-column flex-sm-row gy-3">
+                            <div class="col-lg-4 position-relative">
+                                <img src="./assets/image/zoommeating.png" class="img-fluid max" alt="zoommeating">
+                                <a href="#"
+                                    class="btn text-white fw-regular ps-1 pe-1 p-0  btn-primary rounded-pill position-absolute bottom-0 end-0">NEWS</a>
                             </div>
                             <div class="col-lg-7">
-                                <h4 class="h6 text-black fw-mediumm  pb-3 pt-2">Zoom’s earliest investors are
+                                <h4 class="h6 text-black fw-mediumm">Zoom’s earliest investors are
                                     betting
                                     millions on a
                                     better Zoom
@@ -1423,12 +1448,14 @@
                                     the...</p>
                             </div>
                         </div>
-                        <div class="row align-items-center mt-9">
-                            <div class="col-lg-4">
-                                <img src="./assets/image/lmsfeature.png" class="img-fluid" alt="lmsfeature">
+                        <div class="d-flex gap-2 align-items-center flex-column flex-sm-row gy-3 mt-lg-5 mt-3">
+                            <div class="col-lg-4 position-relative">
+                                <img src="./assets/image/lmsfeature.png" class="img-fluid max" alt="lmsfeature">
+                                <a href="#"
+                                    class="btn text-white fw-regular ps-1 pe-1 p-0  btn-primary rounded-pill position-absolute bottom-0 end-0">NEWS</a>
                             </div>
                             <div class="col-lg-7">
-                                <h4 class="h6 text-black fw-medium  pb-3 pt-2">Former Blackboard CEO Raises $16M to
+                                <h4 class="h6 text-black fw-medium">Former Blackboard CEO Raises $16M to
                                     Bring LMS
                                     Features
                                     to Zoom
@@ -1455,11 +1482,11 @@
                 <div class="row-lg-5 row-4 mb-2">
                     <div class="col d-flex justify-content-center">
                         <form action="">
-                            <label for="exampleFormControlInput1" class="form-label">Subscribe to get our
+                            <label for="exampleFormControlInput1" id="color" class="form-label">Subscribe to get our
                                 Newsletter</label>
                             <div class="d-flex gap-3">
                                 <input type="email" class="form-control rounded-pill" id="exampleFormControlInput1"
-                                    placeholder="Your Email">
+                                    id="color" placeholder="Your Email">
                                 <a href="#"
                                     class="btn btn-info text-white rounded-pill pt-2 pb-2 pe-4 ps-4">Subscribe</a>
                             </div>
@@ -1467,14 +1494,15 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center mt-5">
-                    <a href="#" class="pe-2 text-white text-decoration-none ">Careers</a>
-                    <a href="#" class="ps-2 text-white text-decoration-none pe-2 border-start">Privacy Policy</a>
-                    <a href="#" class="ps-2 text-white text-decoration-none border-start">Terms & Conditions</a>
+                    <a href="#" id="color" class="pe-2 text-decoration-none">Careers</a>
+                    <a href="#" id="color" class="ps-2 text-decoration-none pe-2 border-start">Privacy Policy</a>
+                    <a href="#" id="color" class="ps-2 text-decoration-none border-start">Terms & Conditions</a>
                 </div>
-                <p class="pt-3 pb-3">© 2021 Class Technologies Inc. </p>
+                <p id="color" class="pt-3 pb-3">© 2021 Class Technologies Inc. </p>
             </div>
         </section>
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>

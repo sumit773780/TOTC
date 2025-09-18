@@ -2,6 +2,7 @@
     .card-body {
         border: 10px solid #F67766;
     }
+
     .carousel-control-prev {
         left: 0;
         top: 40%;
@@ -10,6 +11,7 @@
         color: #1EA4CE;
         border-radius: 50%;
     }
+
     .carousel-control-prev-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='currentcolor'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0'/%3e%3c/svg%3e");
     }
@@ -33,5 +35,82 @@
 
     .carousel-control-next-icon:hover {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231EA4CE'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708'/%3e%3c/svg%3e");
+    }
+
+    @media(max-width:1400px) {
+        .carousel-control-next {
+            left: 85%;
+            top: 40%;
+            height: 85px;
+        }
+
+        .carousel-control-prev {
+            left: 0;
+            top: 40%;
+            height: 85px;
+        }
+        .w-75{
+            width: 85% !important;
+        }
+    }
+
+    @media(max-width:1200px) {
+        .carousel-control-next {
+            left: 85%;
+            top: 40%;
+            height: 70px;
+        }
+
+        .carousel-control-prev {
+            left: 0;
+            top: 40%;
+            height: 70px;
+        }
+    }
+
+    @media(max-width:991px) {
+        .carousel-control-next {
+            left: 66%;
+            top: 40%;
+            height: 100px;
+        }
+
+        .carousel-control-prev {
+            left: 0;
+            top: 40%;
+            height: 100px;
+        }
+
+        .w-75{
+            width: 75% !important;
+        }
+    }
+
+    @media(max-width:767px) {
+        .carousel-control-next {
+            left: 85%;
+            top: 40%;
+            height: 85px;
+        }
+
+        .carousel-control-prev {
+            left: 0;
+            top: 40%;
+            height: 85px;
+        }
+    }
+
+     @media(max-width:512px) {
+        .carousel-control-next {
+            left: 85%;
+            top: 40%;
+            height: 60px;
+        }
+
+        .carousel-control-prev {
+            left: 0;
+            top: 40%;
+            height: 60px;
+        }
     }
 }

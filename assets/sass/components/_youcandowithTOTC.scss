@@ -1,0 +1,18 @@
+.youcandowithTOTC{
+    h2{
+        font-size: 30px;
+    }
+
+    .cricle{
+        height: 73px;
+        width: 73px;
+        border-radius: 50%;
+        background-color: #33EFA0;
+    }
+
+    @media(min-width: 1400px){
+        h2{
+            font-size: 34px;
+        }
+    }
+}

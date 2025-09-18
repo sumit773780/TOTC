@@ -17,9 +17,6 @@ $spacers : map-merge($map1: $custom-spacers, $map2:$spacers );
 
 @import'./../../node_modules/bootstrap/scss/bootstrap.scss';
 
-.foot{
-        background-color:#{$black} !important;
-}
 .gardient{
         font-size: 60px;
         background: linear-gradient(to right, #136CB5,#49BBBD);
@@ -27,14 +24,13 @@ $spacers : map-merge($map1: $custom-spacers, $map2:$spacers );
         -webkit-background-clip: text;
 }
 
-.icon{
-        background-color: $white;
 
-}
-
+@import"./components/youcandowithTOTC";
+@import"./components/LastestNewsandResources";
 @import "./components/featuers";
 @import "./components/testimonials";
 @import "./components/explore";
 @import"./components/globle";
 @import"./components/banner";
 @import"./components/all_in_one";
+@import"./components/footer";

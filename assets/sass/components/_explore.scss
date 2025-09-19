@@ -1,17 +1,18 @@
 .explore-coures {
-    background-color: #c4e0ff7a;
-    --bs-primary-text-emphasis:#00BCD4;
+    background-color: #9dccff47;
+    --bs-primary-text-emphasis: #00BCD4;
 
     .left {
         width: 20px;
     }
-    .card{
+
+    .card {
         width: 450px;
     }
 
     .hover-btn {
         width: 100px;
-        height: 318px;
+        height: 310px;
         background-color: white;
         display: grid;
         place-items: center;
@@ -66,13 +67,53 @@
         }
     }
 
+    @media (max-width:1210px) {
+        .hover-btn {
+            width: 85px;
+        }
+
+        .hover-btn-1 {
+            width: 70px;
+        }
+
+        .hover-btn-3 {
+            width: 50px;
+        }
+        .card {
+            width: 400px;
+        }
+
+    }
+
+     @media (max-width:1010px) {
+        .hover-btn {
+            width: 77px;
+        }
+
+        .hover-btn-1 {
+            width: 62px;
+        }
+
+        .hover-btn-3 {
+            width: 45px;
+        }
+    }
+
+    @mea
+}
+
+.border-c1 {
+    border-color: #FF6F00;
 }
 
 #color-1 {
     background-color: #FF6F00;
     writing-mode: vertical-lr;
     color: white;
+}
 
+.border-c2 {
+    border-color: #FF8374;
 }
 
 #color-2 {
@@ -82,17 +123,29 @@
     color: white;
 }
 
+.border-c3 {
+    border-color: #B45A1B;
+}
+
+
 #color-3 {
     background-color: #B45A1B;
     writing-mode: vertical-lr;
     color: white;
 }
 
+.border-c4 {
+    border-color: #FFB300;
+}
+
 #color-4 {
     background-color: #FFB300;
     writing-mode: vertical-lr;
     color: white;
+}
 
+.border-c5 {
+    border-color: #00A8FF;
 }
 
 #color-5 {
@@ -101,19 +154,33 @@
     color: white;
 }
 
+.border-c6 {
+    border-color: blue;
+}
+
 #color-6 {
     background-color: blue;
     writing-mode: vertical-lr;
     color: white;
 }
 
+.border-c7 {
+    border-color: #6DB4A7;
+}
+
 #color-7 {
     background-color: #6DB4A7;
-    writing-mode: vertical-lr; color: white;
+    writing-mode: vertical-lr;
+    color: white;
+}
+
+.border-c8 {
+    border-color: #8db46d;
 }
 
 #color-8 {
     background-color: #8db46d;
+    border-color: #8db46d;
     writing-mode: vertical-lr;
     color: white;
 }

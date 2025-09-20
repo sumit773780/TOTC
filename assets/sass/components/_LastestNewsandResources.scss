@@ -1,6 +1,6 @@
 .LastestNewsandResources {
     .end-0 {
-        right: 7px !important;
+        right: 15px !important;
     }
 
     .bottom-0 {
@@ -9,8 +9,23 @@
 
 }
 
-@media(max-width:576px) {
-    .max {
-        max-width: 100%;
+@media (max-width:1400px){
+    .LastestNewsandResources {
+    .end-0 {
+        right: 15px !important;
     }
+
+    .bottom-0 {
+        bottom: 12px !important;
+    }
+
+    h6{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+
+}
+
 }
